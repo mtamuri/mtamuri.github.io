@@ -1100,6 +1100,9 @@ a:hover.back-to-top {
 
 	.navbar .social-icons {
 		margin-left: 0.5rem;
+		font-size: 0.8 rem; /* Change the font size to 0.8rem */
+		  
+		  
 	}
 	
 	.navbar .fa-stack {
@@ -1286,3 +1289,23 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+  .social-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .fa-stack {
+	margin: 0 8px;
+	transition: transform 0.2s ease-in-out; /* Add transition for zoom effect */
+  }
+  
+  .fa-stack:hover {
+	transform: scale(1.2); /* Zoom in on hover */
+  }
+
+  
+	
